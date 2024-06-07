@@ -4,3 +4,6 @@
 - You must have docker installed in your local machine, furthremore, to run the api you must have java 21 and maven installed in your local machine
 - We will you assume you all have docker installed, and you'll be using wsl since docker desktop is not permitted at BBD
 - Furthermore, you need to have java 21 and maven installed in wsl, since we have already went through the java levelup, I will assume you have the expertise for that
+- In order to stop all containers from running, and remove them, run the commands below:
+- * docker stop $(docker ps -a -q)
+  * docker rm $(docker ps -a -q)
